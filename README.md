@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist shiyang/yii2-masonry "*"
+php composer.phar require --prefer-dist dajjwwx/yii2-masonry "*"
 ```
 
 or add
 
 ```
-"shiyang/yii2-masonry": "*"
+"dajjwwx/yii2-masonry": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -50,7 +50,7 @@ function actionIndex()
 View:
 
 ~~~
-\shiyang\masonry\Masonry::begin([
+\dajjwwx\masonry\Masonry::begin([
         'options' => [
           'id' => 'models'
         ],
@@ -59,5 +59,5 @@ View:
 	foreach ($models as $model) {
 	    // display $model here
 	}
-\shiyang\masonry\Masonry::end();
+\dajjwwx\masonry\Masonry::end();
 ~~~
