@@ -1,16 +1,16 @@
 <?php
 
-namespace shiyang\masonry;
+namespace dajjwwx\masonry;
 
 use Yii;
 use yii\web\View;
 use yii\helpers\Html;
 use yii\base\Widget;
-use shiyang\infinitescroll\InfiniteScrollPager;
+use dajjwwx\infinitescroll\InfiniteScrollPager;
 
  /**
- * @link http://www.shiyang.me
- * @author Shiyang <dr@shiyang.me>
+ * @link http://blog.yuekegu.com
+ * @author dajjwwx <dajjwwx@163.com> 
  */
 
 class Masonry extends Widget

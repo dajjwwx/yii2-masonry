@@ -1,12 +1,12 @@
 <?php
 
-namespace shiyang\masonry;
+namespace dajjwwx\masonry;
 
 use yii\web\AssetBundle;
 
 /**
- * @link http://www.frenzel.net/
- * @author Shiyang <dr@shiyang.me> 
+ * @link http://blog.yuekegu.com
+ * @author dajjwwx <dajjwwx@163.com> 
  */
 
 class MasonryAsset extends AssetBundle
